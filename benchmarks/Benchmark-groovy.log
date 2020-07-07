@@ -1,0 +1,254 @@
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: C:\Program Files\Java\jdk1.8.0_201\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\lib\idea_rt.jar=9924:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: info.victorchu.groovy.GroovyBenchMark.testMultiSubString
+
+# Run progress: 0.00% complete, ETA 00:09:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.488 ±(99.9%) 0.119 us/op
+# Warmup Iteration   2: 0.519 ±(99.9%) 0.018 us/op
+# Warmup Iteration   3: 0.475 ±(99.9%) 0.021 us/op
+Iteration   1: 0.470 ±(99.9%) 0.049 us/op
+Iteration   2: 0.567 ±(99.9%) 0.027 us/op
+Iteration   3: 0.514 ±(99.9%) 0.075 us/op
+Iteration   4: 0.884 ±(99.9%) 0.484 us/op
+Iteration   5: 0.625 ±(99.9%) 0.080 us/op
+Iteration   6: 0.479 ±(99.9%) 0.033 us/op
+Iteration   7: 0.522 ±(99.9%) 0.035 us/op
+Iteration   8: 0.524 ±(99.9%) 0.017 us/op
+Iteration   9: 0.494 ±(99.9%) 0.073 us/op
+Iteration  10: 0.562 ±(99.9%) 0.035 us/op
+
+
+Result "info.victorchu.groovy.GroovyBenchMark.testMultiSubString":
+  0.564 ±(99.9%) 0.184 us/op [Average]
+  (min, avg, max) = (0.470, 0.564, 0.884), stdev = 0.122
+  CI (99.9%): [0.380, 0.748] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: C:\Program Files\Java\jdk1.8.0_201\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\lib\idea_rt.jar=9924:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: info.victorchu.groovy.GroovyBenchMark.testOptionalLiteral
+
+# Run progress: 14.29% complete, ETA 00:08:08
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.529 ±(99.9%) 0.085 us/op
+# Warmup Iteration   2: 0.483 ±(99.9%) 0.049 us/op
+# Warmup Iteration   3: 0.505 ±(99.9%) 0.044 us/op
+Iteration   1: 0.525 ±(99.9%) 0.060 us/op
+Iteration   2: 0.496 ±(99.9%) 0.063 us/op
+Iteration   3: 0.485 ±(99.9%) 0.068 us/op
+Iteration   4: 0.597 ±(99.9%) 0.013 us/op
+Iteration   5: 0.521 ±(99.9%) 0.056 us/op
+Iteration   6: 0.489 ±(99.9%) 0.032 us/op
+Iteration   7: 0.492 ±(99.9%) 0.044 us/op
+Iteration   8: 0.486 ±(99.9%) 0.092 us/op
+Iteration   9: 0.484 ±(99.9%) 0.017 us/op
+Iteration  10: 0.499 ±(99.9%) 0.077 us/op
+
+
+Result "info.victorchu.groovy.GroovyBenchMark.testOptionalLiteral":
+  0.508 ±(99.9%) 0.053 us/op [Average]
+  (min, avg, max) = (0.484, 0.508, 0.597), stdev = 0.035
+  CI (99.9%): [0.455, 0.560] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: C:\Program Files\Java\jdk1.8.0_201\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\lib\idea_rt.jar=9924:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: info.victorchu.groovy.GroovyBenchMark.testSimpleLiteral
+
+# Run progress: 28.57% complete, ETA 00:06:46
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.076 ±(99.9%) 0.162 us/op
+# Warmup Iteration   2: 1.032 ±(99.9%) 0.115 us/op
+# Warmup Iteration   3: 1.200 ±(99.9%) 0.082 us/op
+Iteration   1: 1.053 ±(99.9%) 0.130 us/op
+Iteration   2: 1.040 ±(99.9%) 0.145 us/op
+Iteration   3: 1.233 ±(99.9%) 0.076 us/op
+Iteration   4: 1.052 ±(99.9%) 0.087 us/op
+Iteration   5: 1.060 ±(99.9%) 0.048 us/op
+Iteration   6: 1.170 ±(99.9%) 0.071 us/op
+Iteration   7: 1.557 ±(99.9%) 0.070 us/op
+Iteration   8: 1.414 ±(99.9%) 0.067 us/op
+Iteration   9: 1.399 ±(99.9%) 0.040 us/op
+Iteration  10: 1.421 ±(99.9%) 0.081 us/op
+
+
+Result "info.victorchu.groovy.GroovyBenchMark.testSimpleLiteral":
+  1.240 ±(99.9%) 0.292 us/op [Average]
+  (min, avg, max) = (1.040, 1.240, 1.557), stdev = 0.193
+  CI (99.9%): [0.948, 1.532] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: C:\Program Files\Java\jdk1.8.0_201\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\lib\idea_rt.jar=9924:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: info.victorchu.groovy.GroovyBenchMark.testSubString
+
+# Run progress: 42.86% complete, ETA 00:05:24
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.470 ±(99.9%) 0.105 us/op
+# Warmup Iteration   2: 0.382 ±(99.9%) 0.017 us/op
+# Warmup Iteration   3: 0.310 ±(99.9%) 0.017 us/op
+Iteration   1: 0.310 ±(99.9%) 0.007 us/op
+Iteration   2: 0.311 ±(99.9%) 0.058 us/op
+Iteration   3: 0.325 ±(99.9%) 0.034 us/op
+Iteration   4: 0.313 ±(99.9%) 0.037 us/op
+Iteration   5: 0.303 ±(99.9%) 0.025 us/op
+Iteration   6: 0.350 ±(99.9%) 0.026 us/op
+Iteration   7: 0.320 ±(99.9%) 0.069 us/op
+Iteration   8: 0.297 ±(99.9%) 0.036 us/op
+Iteration   9: 0.290 ±(99.9%) 0.025 us/op
+Iteration  10: 0.274 ±(99.9%) 0.017 us/op
+
+
+Result "info.victorchu.groovy.GroovyBenchMark.testSubString":
+  0.309 ±(99.9%) 0.031 us/op [Average]
+  (min, avg, max) = (0.274, 0.309, 0.350), stdev = 0.021
+  CI (99.9%): [0.278, 0.341] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: C:\Program Files\Java\jdk1.8.0_201\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\lib\idea_rt.jar=9924:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: info.victorchu.groovy.GroovyBenchMark.testSystemTime
+
+# Run progress: 57.14% complete, ETA 00:04:03
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.163 ±(99.9%) 0.012 us/op
+# Warmup Iteration   2: 0.173 ±(99.9%) 0.020 us/op
+# Warmup Iteration   3: 0.154 ±(99.9%) 0.015 us/op
+Iteration   1: 0.148 ±(99.9%) 0.010 us/op
+Iteration   2: 0.160 ±(99.9%) 0.034 us/op
+Iteration   3: 0.180 ±(99.9%) 0.019 us/op
+Iteration   4: 0.163 ±(99.9%) 0.007 us/op
+Iteration   5: 0.169 ±(99.9%) 0.018 us/op
+Iteration   6: 0.161 ±(99.9%) 0.019 us/op
+Iteration   7: 0.160 ±(99.9%) 0.015 us/op
+Iteration   8: 0.169 ±(99.9%) 0.012 us/op
+Iteration   9: 0.150 ±(99.9%) 0.017 us/op
+Iteration  10: 0.156 ±(99.9%) 0.020 us/op
+
+
+Result "info.victorchu.groovy.GroovyBenchMark.testSystemTime":
+  0.162 ±(99.9%) 0.014 us/op [Average]
+  (min, avg, max) = (0.148, 0.162, 0.180), stdev = 0.010
+  CI (99.9%): [0.147, 0.176] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: C:\Program Files\Java\jdk1.8.0_201\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\lib\idea_rt.jar=9924:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: info.victorchu.groovy.GroovyBenchMark.testVariableAndBooleanExpression
+
+# Run progress: 71.43% complete, ETA 00:02:42
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.098 ±(99.9%) 0.299 us/op
+# Warmup Iteration   2: 1.024 ±(99.9%) 0.088 us/op
+# Warmup Iteration   3: 0.973 ±(99.9%) 0.054 us/op
+Iteration   1: 0.945 ±(99.9%) 0.067 us/op
+Iteration   2: 0.953 ±(99.9%) 0.040 us/op
+Iteration   3: 0.956 ±(99.9%) 0.128 us/op
+Iteration   4: 0.990 ±(99.9%) 0.102 us/op
+Iteration   5: 1.215 ±(99.9%) 0.127 us/op
+Iteration   6: 1.045 ±(99.9%) 0.073 us/op
+Iteration   7: 0.976 ±(99.9%) 0.072 us/op
+Iteration   8: 1.014 ±(99.9%) 0.097 us/op
+Iteration   9: 1.012 ±(99.9%) 0.079 us/op
+Iteration  10: 1.085 ±(99.9%) 0.065 us/op
+
+
+Result "info.victorchu.groovy.GroovyBenchMark.testVariableAndBooleanExpression":
+  1.019 ±(99.9%) 0.123 us/op [Average]
+  (min, avg, max) = (0.945, 1.019, 1.215), stdev = 0.082
+  CI (99.9%): [0.896, 1.142] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: C:\Program Files\Java\jdk1.8.0_201\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\lib\idea_rt.jar=9924:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: info.victorchu.groovy.GroovyBenchMark.testVariableExpression
+
+# Run progress: 85.71% complete, ETA 00:01:21
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.983 ±(99.9%) 0.133 us/op
+# Warmup Iteration   2: 0.878 ±(99.9%) 0.104 us/op
+# Warmup Iteration   3: 0.809 ±(99.9%) 0.043 us/op
+Iteration   1: 0.818 ±(99.9%) 0.052 us/op
+Iteration   2: 0.805 ±(99.9%) 0.034 us/op
+Iteration   3: 0.817 ±(99.9%) 0.092 us/op
+Iteration   4: 0.803 ±(99.9%) 0.069 us/op
+Iteration   5: 0.795 ±(99.9%) 0.161 us/op
+Iteration   6: 0.830 ±(99.9%) 0.108 us/op
+Iteration   7: 0.807 ±(99.9%) 0.072 us/op
+Iteration   8: 0.885 ±(99.9%) 0.079 us/op
+Iteration   9: 0.880 ±(99.9%) 0.086 us/op
+Iteration  10: 0.936 ±(99.9%) 0.089 us/op
+
+
+Result "info.victorchu.groovy.GroovyBenchMark.testVariableExpression":
+  0.838 ±(99.9%) 0.070 us/op [Average]
+  (min, avg, max) = (0.795, 0.838, 0.936), stdev = 0.047
+  CI (99.9%): [0.767, 0.908] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:09:28
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                         Mode  Cnt  Score   Error  Units
+GroovyBenchMark.testMultiSubString                avgt   10  0.564 ± 0.184  us/op
+GroovyBenchMark.testOptionalLiteral               avgt   10  0.508 ± 0.053  us/op
+GroovyBenchMark.testSimpleLiteral                 avgt   10  1.240 ± 0.292  us/op
+GroovyBenchMark.testSubString                     avgt   10  0.309 ± 0.031  us/op
+GroovyBenchMark.testSystemTime                    avgt   10  0.162 ± 0.014  us/op
+GroovyBenchMark.testVariableAndBooleanExpression  avgt   10  1.019 ± 0.123  us/op
+GroovyBenchMark.testVariableExpression            avgt   10  0.838 ± 0.070  us/op

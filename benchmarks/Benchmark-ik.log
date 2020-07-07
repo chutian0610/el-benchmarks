@@ -1,0 +1,254 @@
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: C:\Program Files\Java\jdk1.8.0_201\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\lib\idea_rt.jar=10970:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: info.victorchu.ik.IkExpBenchMark.testMultiSubString
+
+# Run progress: 0.00% complete, ETA 00:09:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 7.250 ±(99.9%) 0.553 us/op
+# Warmup Iteration   2: 6.479 ±(99.9%) 0.415 us/op
+# Warmup Iteration   3: 6.789 ±(99.9%) 0.086 us/op
+Iteration   1: 7.309 ±(99.9%) 0.620 us/op
+Iteration   2: 6.413 ±(99.9%) 0.711 us/op
+Iteration   3: 6.308 ±(99.9%) 0.910 us/op
+Iteration   4: 6.360 ±(99.9%) 0.497 us/op
+Iteration   5: 6.407 ±(99.9%) 1.068 us/op
+Iteration   6: 5.492 ±(99.9%) 0.827 us/op
+Iteration   7: 6.748 ±(99.9%) 0.640 us/op
+Iteration   8: 6.399 ±(99.9%) 0.618 us/op
+Iteration   9: 8.067 ±(99.9%) 0.226 us/op
+Iteration  10: 6.881 ±(99.9%) 0.663 us/op
+
+
+Result "info.victorchu.ik.IkExpBenchMark.testMultiSubString":
+  6.638 ±(99.9%) 1.036 us/op [Average]
+  (min, avg, max) = (5.492, 6.638, 8.067), stdev = 0.685
+  CI (99.9%): [5.603, 7.674] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: C:\Program Files\Java\jdk1.8.0_201\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\lib\idea_rt.jar=10970:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: info.victorchu.ik.IkExpBenchMark.testOptionalLiteral
+
+# Run progress: 14.29% complete, ETA 00:08:06
+# Fork: 1 of 1
+# Warmup Iteration   1: 29.118 ±(99.9%) 2.244 us/op
+# Warmup Iteration   2: 23.762 ±(99.9%) 1.350 us/op
+# Warmup Iteration   3: 24.341 ±(99.9%) 0.494 us/op
+Iteration   1: 23.491 ±(99.9%) 1.371 us/op
+Iteration   2: 25.307 ±(99.9%) 2.293 us/op
+Iteration   3: 23.998 ±(99.9%) 1.270 us/op
+Iteration   4: 31.274 ±(99.9%) 1.399 us/op
+Iteration   5: 31.138 ±(99.9%) 1.206 us/op
+Iteration   6: 30.005 ±(99.9%) 1.450 us/op
+Iteration   7: 30.125 ±(99.9%) 1.616 us/op
+Iteration   8: 28.365 ±(99.9%) 1.220 us/op
+Iteration   9: 27.400 ±(99.9%) 1.820 us/op
+Iteration  10: 27.491 ±(99.9%) 2.323 us/op
+
+
+Result "info.victorchu.ik.IkExpBenchMark.testOptionalLiteral":
+  27.859 ±(99.9%) 4.313 us/op [Average]
+  (min, avg, max) = (23.491, 27.859, 31.274), stdev = 2.853
+  CI (99.9%): [23.546, 32.173] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: C:\Program Files\Java\jdk1.8.0_201\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\lib\idea_rt.jar=10970:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: info.victorchu.ik.IkExpBenchMark.testSimpleLiteral
+
+# Run progress: 28.57% complete, ETA 00:06:45
+# Fork: 1 of 1
+# Warmup Iteration   1: 29.694 ±(99.9%) 1.711 us/op
+# Warmup Iteration   2: 27.022 ±(99.9%) 1.009 us/op
+# Warmup Iteration   3: 25.613 ±(99.9%) 1.580 us/op
+Iteration   1: 19.857 ±(99.9%) 0.945 us/op
+Iteration   2: 19.359 ±(99.9%) 3.293 us/op
+Iteration   3: 21.174 ±(99.9%) 0.351 us/op
+Iteration   4: 20.586 ±(99.9%) 3.106 us/op
+Iteration   5: 19.915 ±(99.9%) 1.216 us/op
+Iteration   6: 19.816 ±(99.9%) 0.593 us/op
+Iteration   7: 20.542 ±(99.9%) 0.948 us/op
+Iteration   8: 21.048 ±(99.9%) 3.383 us/op
+Iteration   9: 19.619 ±(99.9%) 1.087 us/op
+Iteration  10: 19.759 ±(99.9%) 2.684 us/op
+
+
+Result "info.victorchu.ik.IkExpBenchMark.testSimpleLiteral":
+  20.167 ±(99.9%) 0.944 us/op [Average]
+  (min, avg, max) = (19.359, 20.167, 21.174), stdev = 0.624
+  CI (99.9%): [19.223, 21.112] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: C:\Program Files\Java\jdk1.8.0_201\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\lib\idea_rt.jar=10970:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: info.victorchu.ik.IkExpBenchMark.testSubString
+
+# Run progress: 42.86% complete, ETA 00:05:24
+# Fork: 1 of 1
+# Warmup Iteration   1: 3.532 ±(99.9%) 0.203 us/op
+# Warmup Iteration   2: 2.960 ±(99.9%) 0.058 us/op
+# Warmup Iteration   3: 2.910 ±(99.9%) 0.102 us/op
+Iteration   1: 2.922 ±(99.9%) 0.152 us/op
+Iteration   2: 2.940 ±(99.9%) 0.077 us/op
+Iteration   3: 2.947 ±(99.9%) 0.214 us/op
+Iteration   4: 3.102 ±(99.9%) 0.189 us/op
+Iteration   5: 3.122 ±(99.9%) 0.280 us/op
+Iteration   6: 2.914 ±(99.9%) 0.555 us/op
+Iteration   7: 2.858 ±(99.9%) 0.342 us/op
+Iteration   8: 3.387 ±(99.9%) 0.295 us/op
+Iteration   9: 3.085 ±(99.9%) 0.338 us/op
+Iteration  10: 2.809 ±(99.9%) 0.389 us/op
+
+
+Result "info.victorchu.ik.IkExpBenchMark.testSubString":
+  3.009 ±(99.9%) 0.256 us/op [Average]
+  (min, avg, max) = (2.809, 3.009, 3.387), stdev = 0.169
+  CI (99.9%): [2.753, 3.265] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: C:\Program Files\Java\jdk1.8.0_201\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\lib\idea_rt.jar=10970:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: info.victorchu.ik.IkExpBenchMark.testSystemTime
+
+# Run progress: 57.14% complete, ETA 00:04:03
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.703 ±(99.9%) 0.161 us/op
+# Warmup Iteration   2: 1.310 ±(99.9%) 0.053 us/op
+# Warmup Iteration   3: 1.300 ±(99.9%) 0.145 us/op
+Iteration   1: 1.676 ±(99.9%) 0.068 us/op
+Iteration   2: 1.360 ±(99.9%) 0.063 us/op
+Iteration   3: 1.390 ±(99.9%) 0.134 us/op
+Iteration   4: 1.357 ±(99.9%) 0.202 us/op
+Iteration   5: 1.317 ±(99.9%) 0.149 us/op
+Iteration   6: 1.410 ±(99.9%) 0.092 us/op
+Iteration   7: 1.500 ±(99.9%) 0.142 us/op
+Iteration   8: 1.858 ±(99.9%) 0.131 us/op
+Iteration   9: 1.356 ±(99.9%) 0.123 us/op
+Iteration  10: 1.427 ±(99.9%) 0.066 us/op
+
+
+Result "info.victorchu.ik.IkExpBenchMark.testSystemTime":
+  1.465 ±(99.9%) 0.260 us/op [Average]
+  (min, avg, max) = (1.317, 1.465, 1.858), stdev = 0.172
+  CI (99.9%): [1.205, 1.725] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: C:\Program Files\Java\jdk1.8.0_201\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\lib\idea_rt.jar=10970:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: info.victorchu.ik.IkExpBenchMark.testVariableAndBooleanExpression
+
+# Run progress: 71.43% complete, ETA 00:02:42
+# Fork: 1 of 1
+# Warmup Iteration   1: 128.160 ±(99.9%) 11.104 us/op
+# Warmup Iteration   2: 80.591 ±(99.9%) 6.093 us/op
+# Warmup Iteration   3: 107.096 ±(99.9%) 7.481 us/op
+Iteration   1: 95.744 ±(99.9%) 5.464 us/op
+Iteration   2: 80.160 ±(99.9%) 4.449 us/op
+Iteration   3: 76.948 ±(99.9%) 7.802 us/op
+Iteration   4: 77.305 ±(99.9%) 4.121 us/op
+Iteration   5: 67.386 ±(99.9%) 7.778 us/op
+Iteration   6: 72.348 ±(99.9%) 7.103 us/op
+Iteration   7: 80.232 ±(99.9%) 4.481 us/op
+Iteration   8: 68.241 ±(99.9%) 6.374 us/op
+Iteration   9: 72.279 ±(99.9%) 8.280 us/op
+Iteration  10: 81.539 ±(99.9%) 5.166 us/op
+
+
+Result "info.victorchu.ik.IkExpBenchMark.testVariableAndBooleanExpression":
+  77.218 ±(99.9%) 12.396 us/op [Average]
+  (min, avg, max) = (67.386, 77.218, 95.744), stdev = 8.199
+  CI (99.9%): [64.822, 89.615] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: C:\Program Files\Java\jdk1.8.0_201\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\lib\idea_rt.jar=10970:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: info.victorchu.ik.IkExpBenchMark.testVariableExpression
+
+# Run progress: 85.71% complete, ETA 00:01:21
+# Fork: 1 of 1
+# Warmup Iteration   1: 58.517 ±(99.9%) 5.257 us/op
+# Warmup Iteration   2: 45.003 ±(99.9%) 2.022 us/op
+# Warmup Iteration   3: 42.453 ±(99.9%) 1.236 us/op
+Iteration   1: 45.658 ±(99.9%) 6.379 us/op
+Iteration   2: 41.372 ±(99.9%) 2.767 us/op
+Iteration   3: 41.517 ±(99.9%) 2.513 us/op
+Iteration   4: 40.795 ±(99.9%) 3.425 us/op
+Iteration   5: 40.997 ±(99.9%) 1.565 us/op
+Iteration   6: 41.296 ±(99.9%) 6.586 us/op
+Iteration   7: 40.732 ±(99.9%) 6.246 us/op
+Iteration   8: 40.833 ±(99.9%) 8.218 us/op
+Iteration   9: 40.935 ±(99.9%) 5.595 us/op
+Iteration  10: 40.711 ±(99.9%) 5.692 us/op
+
+
+Result "info.victorchu.ik.IkExpBenchMark.testVariableExpression":
+  41.485 ±(99.9%) 2.258 us/op [Average]
+  (min, avg, max) = (40.711, 41.485, 45.658), stdev = 1.493
+  CI (99.9%): [39.227, 43.742] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:09:28
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                        Mode  Cnt   Score    Error  Units
+IkExpBenchMark.testMultiSubString                avgt   10   6.638 ±  1.036  us/op
+IkExpBenchMark.testOptionalLiteral               avgt   10  27.859 ±  4.313  us/op
+IkExpBenchMark.testSimpleLiteral                 avgt   10  20.167 ±  0.944  us/op
+IkExpBenchMark.testSubString                     avgt   10   3.009 ±  0.256  us/op
+IkExpBenchMark.testSystemTime                    avgt   10   1.465 ±  0.260  us/op
+IkExpBenchMark.testVariableAndBooleanExpression  avgt   10  77.218 ± 12.396  us/op
+IkExpBenchMark.testVariableExpression            avgt   10  41.485 ±  2.258  us/op

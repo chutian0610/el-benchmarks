@@ -1,0 +1,254 @@
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: C:\Program Files\Java\jdk1.8.0_201\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\lib\idea_rt.jar=8691:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: info.victorchu.aviator.AviatorBenchMark.testMultiSubString
+
+# Run progress: 0.00% complete, ETA 00:09:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.481 ±(99.9%) 0.044 us/op
+# Warmup Iteration   2: 1.264 ±(99.9%) 0.080 us/op
+# Warmup Iteration   3: 1.262 ±(99.9%) 0.103 us/op
+Iteration   1: 1.294 ±(99.9%) 0.080 us/op
+Iteration   2: 1.510 ±(99.9%) 0.274 us/op
+Iteration   3: 1.553 ±(99.9%) 0.082 us/op
+Iteration   4: 1.279 ±(99.9%) 0.180 us/op
+Iteration   5: 1.233 ±(99.9%) 0.120 us/op
+Iteration   6: 1.214 ±(99.9%) 0.109 us/op
+Iteration   7: 1.274 ±(99.9%) 0.152 us/op
+Iteration   8: 1.260 ±(99.9%) 0.111 us/op
+Iteration   9: 1.172 ±(99.9%) 0.174 us/op
+Iteration  10: 1.194 ±(99.9%) 0.167 us/op
+
+
+Result "info.victorchu.aviator.AviatorBenchMark.testMultiSubString":
+  1.298 ±(99.9%) 0.196 us/op [Average]
+  (min, avg, max) = (1.172, 1.298, 1.553), stdev = 0.129
+  CI (99.9%): [1.103, 1.494] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: C:\Program Files\Java\jdk1.8.0_201\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\lib\idea_rt.jar=8691:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: info.victorchu.aviator.AviatorBenchMark.testOptionalLiteral
+
+# Run progress: 14.29% complete, ETA 00:08:07
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.020 ±(99.9%) 0.003 us/op
+# Warmup Iteration   2: 0.024 ±(99.9%) 0.004 us/op
+# Warmup Iteration   3: 0.022 ±(99.9%) 0.005 us/op
+Iteration   1: 0.022 ±(99.9%) 0.006 us/op
+Iteration   2: 0.022 ±(99.9%) 0.001 us/op
+Iteration   3: 0.022 ±(99.9%) 0.006 us/op
+Iteration   4: 0.023 ±(99.9%) 0.005 us/op
+Iteration   5: 0.022 ±(99.9%) 0.002 us/op
+Iteration   6: 0.021 ±(99.9%) 0.004 us/op
+Iteration   7: 0.023 ±(99.9%) 0.003 us/op
+Iteration   8: 0.022 ±(99.9%) 0.004 us/op
+Iteration   9: 0.023 ±(99.9%) 0.003 us/op
+Iteration  10: 0.022 ±(99.9%) 0.004 us/op
+
+
+Result "info.victorchu.aviator.AviatorBenchMark.testOptionalLiteral":
+  0.022 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.021, 0.022, 0.023), stdev = 0.001
+  CI (99.9%): [0.022, 0.023] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: C:\Program Files\Java\jdk1.8.0_201\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\lib\idea_rt.jar=8691:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: info.victorchu.aviator.AviatorBenchMark.testSimpleLiteral
+
+# Run progress: 28.57% complete, ETA 00:06:45
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.021 ±(99.9%) 0.003 us/op
+# Warmup Iteration   2: 0.024 ±(99.9%) 0.003 us/op
+# Warmup Iteration   3: 0.023 ±(99.9%) 0.003 us/op
+Iteration   1: 0.021 ±(99.9%) 0.004 us/op
+Iteration   2: 0.026 ±(99.9%) 0.003 us/op
+Iteration   3: 0.028 ±(99.9%) 0.003 us/op
+Iteration   4: 0.026 ±(99.9%) 0.005 us/op
+Iteration   5: 0.022 ±(99.9%) 0.005 us/op
+Iteration   6: 0.022 ±(99.9%) 0.005 us/op
+Iteration   7: 0.022 ±(99.9%) 0.007 us/op
+Iteration   8: 0.022 ±(99.9%) 0.008 us/op
+Iteration   9: 0.022 ±(99.9%) 0.003 us/op
+Iteration  10: 0.021 ±(99.9%) 0.003 us/op
+
+
+Result "info.victorchu.aviator.AviatorBenchMark.testSimpleLiteral":
+  0.023 ±(99.9%) 0.004 us/op [Average]
+  (min, avg, max) = (0.021, 0.023, 0.028), stdev = 0.002
+  CI (99.9%): [0.020, 0.027] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: C:\Program Files\Java\jdk1.8.0_201\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\lib\idea_rt.jar=8691:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: info.victorchu.aviator.AviatorBenchMark.testSubString
+
+# Run progress: 42.86% complete, ETA 00:05:24
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.536 ±(99.9%) 0.035 us/op
+# Warmup Iteration   2: 0.626 ±(99.9%) 0.045 us/op
+# Warmup Iteration   3: 0.558 ±(99.9%) 0.023 us/op
+Iteration   1: 0.522 ±(99.9%) 0.095 us/op
+Iteration   2: 0.507 ±(99.9%) 0.035 us/op
+Iteration   3: 0.506 ±(99.9%) 0.032 us/op
+Iteration   4: 0.500 ±(99.9%) 0.038 us/op
+Iteration   5: 0.523 ±(99.9%) 0.056 us/op
+Iteration   6: 0.544 ±(99.9%) 0.012 us/op
+Iteration   7: 0.502 ±(99.9%) 0.061 us/op
+Iteration   8: 0.504 ±(99.9%) 0.044 us/op
+Iteration   9: 0.531 ±(99.9%) 0.027 us/op
+Iteration  10: 0.507 ±(99.9%) 0.033 us/op
+
+
+Result "info.victorchu.aviator.AviatorBenchMark.testSubString":
+  0.515 ±(99.9%) 0.022 us/op [Average]
+  (min, avg, max) = (0.500, 0.515, 0.544), stdev = 0.015
+  CI (99.9%): [0.493, 0.537] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: C:\Program Files\Java\jdk1.8.0_201\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\lib\idea_rt.jar=8691:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: info.victorchu.aviator.AviatorBenchMark.testSystemTime
+
+# Run progress: 57.14% complete, ETA 00:04:03
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.026 ±(99.9%) 0.004 us/op
+# Warmup Iteration   2: 0.029 ±(99.9%) 0.003 us/op
+# Warmup Iteration   3: 0.027 ±(99.9%) 0.004 us/op
+Iteration   1: 0.027 ±(99.9%) 0.002 us/op
+Iteration   2: 0.027 ±(99.9%) 0.002 us/op
+Iteration   3: 0.028 ±(99.9%) 0.004 us/op
+Iteration   4: 0.028 ±(99.9%) 0.006 us/op
+Iteration   5: 0.028 ±(99.9%) 0.007 us/op
+Iteration   6: 0.028 ±(99.9%) 0.003 us/op
+Iteration   7: 0.027 ±(99.9%) 0.005 us/op
+Iteration   8: 0.028 ±(99.9%) 0.005 us/op
+Iteration   9: 0.028 ±(99.9%) 0.006 us/op
+Iteration  10: 0.029 ±(99.9%) 0.002 us/op
+
+
+Result "info.victorchu.aviator.AviatorBenchMark.testSystemTime":
+  0.028 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.027, 0.028, 0.029), stdev = 0.001
+  CI (99.9%): [0.027, 0.028] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: C:\Program Files\Java\jdk1.8.0_201\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\lib\idea_rt.jar=8691:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: info.victorchu.aviator.AviatorBenchMark.testVariableAndBooleanExpression
+
+# Run progress: 71.43% complete, ETA 00:02:42
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.161 ±(99.9%) 0.162 us/op
+# Warmup Iteration   2: 1.074 ±(99.9%) 0.164 us/op
+# Warmup Iteration   3: 1.158 ±(99.9%) 0.160 us/op
+Iteration   1: 1.156 ±(99.9%) 0.149 us/op
+Iteration   2: 1.081 ±(99.9%) 0.117 us/op
+Iteration   3: 1.059 ±(99.9%) 0.140 us/op
+Iteration   4: 1.057 ±(99.9%) 0.081 us/op
+Iteration   5: 1.181 ±(99.9%) 0.202 us/op
+Iteration   6: 2.560 ±(99.9%) 0.848 us/op
+Iteration   7: 2.306 ±(99.9%) 1.398 us/op
+Iteration   8: 1.548 ±(99.9%) 0.151 us/op
+Iteration   9: 1.496 ±(99.9%) 0.064 us/op
+Iteration  10: 1.362 ±(99.9%) 0.106 us/op
+
+
+Result "info.victorchu.aviator.AviatorBenchMark.testVariableAndBooleanExpression":
+  1.481 ±(99.9%) 0.809 us/op [Average]
+  (min, avg, max) = (1.057, 1.481, 2.560), stdev = 0.535
+  CI (99.9%): [0.671, 2.290] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_201, Java HotSpot(TM) 64-Bit Server VM, 25.201-b09
+# VM invoker: C:\Program Files\Java\jdk1.8.0_201\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\lib\idea_rt.jar=8691:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.6\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 4 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: info.victorchu.aviator.AviatorBenchMark.testVariableExpression
+
+# Run progress: 85.71% complete, ETA 00:01:21
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.003 ±(99.9%) 0.058 us/op
+# Warmup Iteration   2: 0.945 ±(99.9%) 0.064 us/op
+# Warmup Iteration   3: 0.926 ±(99.9%) 0.081 us/op
+Iteration   1: 1.077 ±(99.9%) 0.106 us/op
+Iteration   2: 1.010 ±(99.9%) 0.079 us/op
+Iteration   3: 0.861 ±(99.9%) 0.153 us/op
+Iteration   4: 0.890 ±(99.9%) 0.096 us/op
+Iteration   5: 0.798 ±(99.9%) 0.140 us/op
+Iteration   6: 1.115 ±(99.9%) 0.086 us/op
+Iteration   7: 1.270 ±(99.9%) 0.192 us/op
+Iteration   8: 1.145 ±(99.9%) 0.213 us/op
+Iteration   9: 0.797 ±(99.9%) 0.077 us/op
+Iteration  10: 0.771 ±(99.9%) 0.102 us/op
+
+
+Result "info.victorchu.aviator.AviatorBenchMark.testVariableExpression":
+  0.973 ±(99.9%) 0.263 us/op [Average]
+  (min, avg, max) = (0.771, 0.973, 1.270), stdev = 0.174
+  CI (99.9%): [0.711, 1.236] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:09:27
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                          Mode  Cnt  Score   Error  Units
+AviatorBenchMark.testMultiSubString                avgt   10  1.298 ± 0.196  us/op
+AviatorBenchMark.testOptionalLiteral               avgt   10  0.022 ± 0.001  us/op
+AviatorBenchMark.testSimpleLiteral                 avgt   10  0.023 ± 0.004  us/op
+AviatorBenchMark.testSubString                     avgt   10  0.515 ± 0.022  us/op
+AviatorBenchMark.testSystemTime                    avgt   10  0.028 ± 0.001  us/op
+AviatorBenchMark.testVariableAndBooleanExpression  avgt   10  1.481 ± 0.809  us/op
+AviatorBenchMark.testVariableExpression            avgt   10  0.973 ± 0.263  us/op
